@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Kalam";
+    src: url("fonts/Kalam-Regular.ttf") format("truetype"),
+         url("fonts/Kalam-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Italic-VariableFont_wdth_wght.ttf") format("truetype"),
+         url("fonts/OpenSans-Italic-VariableFont_wdth_wght.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("fonts/PlayfairDisplay-Italic-VariableFont_wght.ttf") format("truetype"),
+         url("fonts/PlayfairDisplay-Italic-VariableFont_wght.woff") format("woff");
+}
+
+
+
+h2, h3, h4, h5 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cv-inner .header-logo a {
+    font-family: 'Kalam', sans-serif;
+}
