@@ -30,7 +30,7 @@ if ( is_home() ) {
 	<!-- on inclut la Google Maps de la Fashion Week -->
 	<div id="chic-fashionweek-map" class="boxed-wrapper clear-fix" style="margin-top:30px">
 		<h1 class="chic-title">La FashionMap - été 2022 </h1>
-		<iframe src="https://www.google.com/maps/d/embed?mid=1SU-W19k76UkTXASeT7PnGAyDYCY&hl=en_US&ehbc=2E312F" width="100%" height="480"></iframe>';
+		<iframe src="https://www.google.com/maps/d/embed?mid=1SU-W19k76UkTXASeT7PnGAyDYCY&hl=en_US&ehbc=2E312F&callback=initMap" width="100%" height="480"></iframe>';
 	</div>
 	<?php
 
